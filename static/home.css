@@ -1,0 +1,143 @@
+
+
+.logo{
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+nav a:hover{
+    color: black;
+}
+.body {
+    background-color: #bbb;
+    height: 87.7vh;
+    padding-top: 80px;
+}
+
+#login {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: #3f3f3f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.login{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px rgba(35, 35, 35, 0.754);
+    background-color:rgb(143, 143, 143) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    text-align: center;
+}
+
+input {
+    width: 14rem;
+    height: 2.1rem;
+    border-radius: 13px;
+    font-size: 17px;
+    font-family: cursive;
+    padding-left: 7px;
+    border: none;
+    outline: none;
+}
+
+
+.user {
+    padding: 5px;
+    margin: 10px;
+    font-size: 22px;
+}
+
+.button {
+    width: 20%;
+    height: 38px;
+    color: rgba(240, 248, 255, 0.769);
+    background-color: #242323;
+}
+.button:hover {
+    border: 2px groove #fff;
+    box-shadow: 5px 5px 30px rgba(35, 35, 35, 0.754);
+}
+.link  {
+    
+    text-decoration: none;
+    margin-left: 300px;
+    color: blue;  
+}
+.signup{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px rgba(35, 35, 35, 0.754);
+    background-color:rgb(143, 143, 143) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    text-align: center;
+}
+#signup{
+    color: #3f3f3f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.roombody{
+    background-color: #7467ed;
+    height: 87.7vh;
+    padding-top: 80px;
+}
+.room{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px rgba(35, 35, 35, 0.754);
+    background-color:rgb(52, 75, 246) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    text-align: center;
+}
+#chat{
+    color: #000000;
+    text-shadow: 2px 2px #454545;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-top: 15px;
+}
+div .user1 input{
+    width: 14rem;
+    height: 2.1rem;
+    border-radius: 13px;
+    font-size: 17px;
+    font-family: monospace;
+    padding-left: 7px;
+    border: none;
+    outline: none;
+}
+
+.button1{
+    width: 20%;
+    height: 38px;
+    color: rgb(0, 62, 248);
+    background-color: rgb(0, 0, 0);
+}
+.button1:hover{
+    border: 2px groove #797777;
+    box-shadow: 5px 5px 30px rgba(35, 35, 35, 0.754);
+}
+.user1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-size: 22px;
+}
+
+
+
+
+

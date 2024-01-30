@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+    <div class="body">
+        {% if messages %}
+            {% for message in messages %}
+                {% if message.tags %} <script>alert('{{message}}')</script> {% endif %}
+            {% endfor %}
+        {% endif %}
+        <div class="signup">
+            <form action="" method="post">
+                {%csrf_token%}
+                <h1 id="signup">SIGN UP</h1>
+                <div class="user">
+                    <label>Username</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text"  name="username" placeholder="Enter username" required><br><br>
+                    <label>Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="email" name="email" placeholder="Enter email" required><br><br>
+                    <label>Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="password"  name="password1" placeholder="Enter password" required><br><br>
+                    <label>Confirm Password</label>
+                    <input type="password" name="password2" placeholder="Re-enter password" required><br><br>
+                </div>
+                <input type="submit" value="Sign up" class="button"><br><br><br> 
+                <a href="{% url 'login'%}" class="link">I have already an account.</a>
+            </form>
+        </div>
+    </div>
+</body>   
+</html>

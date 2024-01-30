@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'banner.css'%}">
+
+</head>
+<style>
+    body{
+        background-image: url(static/img/banner1.jpg);
+    }
+</style>
+<body class="banner">
+    <div class="frontPage">
+        <img src="{%static 'img/logo.png'%}" alt="" class="logo">
+               
+        <h1>Meet Up</h1>
+        <p>Meet Up is a treasure zone to make New friends. In an uncertain world, they provide a comforting sense of
+            stability and connection. We laugh together and cry together, sharing our good times and supporting each
+            other through the Meet Up.</p><br>
+        <p>Chatting through Meet Up is one of the way to be able to communicate others. To join in the fun, all you need
+            is to connect to the Meet Up to get you connected to the Fun World.</p><br>
+        <button><a href="{% url 'login' %}">Login</a></button>
+    </div>
+
+</body>
+
+</html>
